@@ -1,0 +1,247 @@
+ul, li{
+	list-style:none !important;
+}
+#kento-highlight-widget{
+	border-bottom:0px none;
+	padding:0px;
+}
+#kento-highlight-widget a{
+	text-decoration:none;
+}
+#kento-highlight-widget .widget-container{
+	clear:both;
+	padding:0px;
+}
+#kento-highlight-widget .widget-top {
+    height: auto;
+    margin: 0;
+    padding-bottom: 0px;
+    border-bottom: 0px none;
+    padding: 0;
+}
+#kento-highlight-widget ul.tabs li{
+	background-attachment:scroll;
+	/*background-clip*/
+	-webkit-background-clip:border-box;
+	   -moz-background-clip:border;
+			background-clip:border-box;
+	background-color:transparent;
+	background-image:none;
+	/*background-origin*/
+	-webkit-background-origin:padding-box;
+	   -moz-background-origin:padding;
+			background-origin:padding-box;
+	/*background-size*/
+	-webkit-background-size:auto auto;
+	   -moz-background-size:auto auto;
+		 -o-background-size:auto auto;
+			background-size:auto auto;
+	background-position:0 0;
+	background-repeat:no-repeat;
+	float:left;
+	position:relative;
+	width:33%;
+	padding:0px;
+	line-height:30px;
+}
+#kento-highlight-widget ul.tabs li:nth-child(2){
+	border-left:1px solid #666;
+	border-right:1px solid #666;
+}
+#kento-highlight-widget .widget-container li{
+	background-attachment:scroll;
+	/*background-clip*/
+	-webkit-background-clip:border-box;
+	   -moz-background-clip:border;
+			background-clip:border-box;
+	background-color:transparent;
+	/*background-origin*/
+	-webkit-background-origin:padding-box;
+	   -moz-background-origin:padding;
+			background-origin:padding-box;
+	background-position:left 8px;
+	background-repeat:no-repeat;
+	/*background-size*/
+	-webkit-background-size:auto auto;
+	   -moz-background-size:auto auto;
+		 -o-background-size:auto auto;
+			background-size:auto auto;
+	line-height:18px;
+	overflow:hidden;
+	padding:0px 0px 5px 12px;
+}
+#kento-highlight-widget ul.tabs li.active a{
+	background-attachment:scroll;
+	/*background-clip*/
+	-webkit-background-clip:border-box;
+	   -moz-background-clip:border;
+			background-clip:border-box;
+	background-color:#CD2122;
+	background-image:none;
+	background-repeat:repeat;
+	/*background-size*/
+	-webkit-background-size:auto;
+	   -moz-background-size:auto;
+		 -o-background-size:auto;
+			background-size:auto;
+	/*background-origin*/
+	-webkit-background-origin:padding-box;
+	   -moz-background-origin:padding;
+			background-origin:padding-box;
+	font-family:Tahoma;
+}
+#kento-highlight-widget .active{
+	background-color:#CD2122;
+}
+#kento-highlight-widget ul.tabs li a{
+	background-color:#2C2C2C;
+	color:#FFFFFF;
+	cursor:pointer;
+	display:block;
+	line-height:40px;
+	padding:0px;
+	text-align:center;
+}
+#kento-highlight-widget ul.tabs li a:hover{
+	background-color:#4c4c4c;
+	text-decoration:none;
+}
+#kento-highlight-widget ul.tabs li.active:hover a{
+	background-color:#CD2122;
+	text-decoration: none;
+	box-shadow: none;
+	outline: none;
+}
+#kento-highlight-widget .tabs-wrap{
+	padding-top:1px;
+	clear:both;
+}
+#kento-highlight-widget #tab1 li a, #kento-highlight-widget #tab2 li a{
+/*	display:block;
+	font-size:14px;
+	font-weight:bold;
+	max-height:38px !important;
+	overflow:hidden;
+	margin-top: 1px;
+	text-decoration: none;
+	box-shadow: none;
+	outline: none;*/
+}
+.clear{
+	clear:both;
+}
+
+
+
+
+
+#kento-highlight-widget #tab3 li a{
+	max-height:51px !important;
+	display:block !important;
+	width:100%;
+	font-weight:normal !important;
+}
+
+#kento-highlight-widget .widget-container .post-thumbnail, #kento-highlight-widget .footer-widget-container .post-thumbnail{
+	float:left;
+	margin:0px 5px 0px 0px;
+	height:60px;
+	width:60px;
+}
+#kento-highlight-widget .post-thumbnail{
+	position:relative;
+	line-height:0px;
+	margin:0px 15px 10px 0px;
+}
+#kento-highlight-widget .post-thumbnail img{
+	height:auto;
+	max-width:100%;
+	/*transition*/
+	-webkit-transition:all 0.4s ease 0s;
+	   -moz-transition:all 0.4s ease 0s;
+		 -o-transition:all 0.4s ease 0s;
+			transition:all 0.4s ease 0s;
+	/*border-radius*/
+	-webkit-border-radius:0 !important;
+	   -moz-border-radius:0 !important;
+			border-radius:0 !important;
+	/*box-shadow*/
+	-webkit-box-shadow:none !important;
+	   -moz-box-shadow:none !important;
+			box-shadow:none !important;
+}
+#kento-highlight-widget .widget-container h3{
+	font-size:inherit;
+}
+#kento-highlight-widget .widget-container a:hover{
+	text-decoration:underline;
+}
+#kento-highlight-widget ul.tabs {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+#kento-highlight-widget .tabs-wrap ul {
+    margin: 0;
+    padding: 0;
+}
+#kento-highlight-widget .widget-container li span.date, 
+#kento-highlight-widget .footer-widget-container li span.date{
+	color:#aaa;
+	font-size:85%;
+	margin:5px 0px;
+}
+#kento-highlight-widget span.post-date{
+	background-image:url(images/separate.png);
+	padding-left:16px;
+	background-repeat:no-repeat;
+	background-position:left -504px;
+}
+#kento-highlight-widget .widget-container li .stars-small, 
+#kento-highlight-widget .footer-widget-container li .stars-small{
+	float:left;
+	margin:2px 5px 0px 0px;
+}
+
+
+#kento-highlight-widget .tabs-wrap li{
+	background:none repeat scroll 0 0;
+	border-bottom:1px solid #F2F2F2;
+	display:block;
+	padding: 10px 0px;
+	overflow:hidden;
+}
+#kento-highlight-widget .tabs-wrap li:last-child{
+	padding-bottom: 0;
+	border-bottom:none;
+}
+#kento-highlight-widget .tabs-wrap li:first-child{
+	padding-top: 0;
+}
+
+.kento-post-details {
+    display: block;
+    overflow: hidden;
+}
+.kento-post-thumbnail {
+    position: relative;
+    max-width: 75px;
+    margin-right: 20px;
+    float: left;
+    min-width: 75px;
+    vertical-align: middle;
+    display: block;
+}
+#kento-highlight-widget .tabs-wrap li .kento-post-details a{
+	color:#555 !important;
+	text-decoration: none;
+	box-shadow: none;
+	outline: none;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 24px;
+}
